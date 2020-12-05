@@ -33,13 +33,13 @@ header > a {
 }
 
 header > a:hover{
-	background-color:purple;
+	background-color:pink;
 	color:black;
 	font-weight: bold;
 }
 header > a:active{
 	background-color:black;
-	color:purple;
+	color:pink;
 	font-weight: regular;
 }
 
