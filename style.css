@@ -2,7 +2,6 @@ body  {
 	
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-size: 16px;
   background-repeat: no-repeat;
   background-image: url("background.jpg");
   Background-size: cover;
@@ -18,10 +17,12 @@ body  {
 	
 header     	
     {
-	  position: stricky;
+	  position: sticky;
 	  color:pink;
 	  background-color:black;
 	  text-align: center;
+	  width: 100% ;
+	  height: 100px
     }
 	
 header > h1 {
@@ -48,9 +49,34 @@ header > a:active{
 	font-weight: regular;
 }
 
+.continer {
+	       color:pink;
+	       background-color:black;
+		   width: 390px;
+	
+            }
+		
+
+
  h2 ,h3  {
 	text-decoration:underline;
+	
+	
 }
+#school {
+    
+	border : 12px solid #EEE;
+	padding: 0px;
+	width: 800px;
+	margin:50px;
+	height:350px;
+	left:0;
+	right:0;
+	
+	
+        }
+		
+		
 
 .contact{
 	line-height: 3;
@@ -90,6 +116,12 @@ ul  {
 	 }	 
 
 
+#map { border : 7px solid black;
+	   padding: 0px;
+	   width: 450px;
+	   height:550px
+	   
+         }
 
 
 
@@ -107,7 +139,6 @@ footer
 	right:0;
 	bottom:0;
 	height:30px;
-	
 	
       }	
 	  
